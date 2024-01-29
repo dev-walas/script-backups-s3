@@ -16,8 +16,10 @@ AWS_BUCKET_NAME: Nome do bucket S3 de destino.<br>
 AWS_REGION: Região AWS onde o bucket está localizado.<br>
 WEBHOOK_URL: URL do webhook para receber alertas.<br>
 cliente_nome: Nome do cliente, usado na formação do nome do arquivo enviado.<br>
-Instalação e Configuração:<br>
-Instale as Dependências:<br>
+
+Instalação e Configuração:
+
+Instale as Dependências:
 Certifique-se de ter as bibliotecas necessárias instaladas usando o seguinte comando:<br>
 
 pip install boto3 requests tqdm
@@ -32,8 +34,6 @@ Abra o script upload_to_s3.py e substitua as variáveis de configuração no in�
 
 Execute o Script Manualmente:
 Teste o script manualmente para garantir que tudo está configurado corretamente.
-
-
 python upload_to_s3.py
 
 Configure Agendamento (Opcional):
