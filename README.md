@@ -24,8 +24,8 @@ pip install boto3 requests tqdm
 
 Clone o Repositório:
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/dev-walas/script-backups-s3.git
+cd script-backups-s3
 
 Configure as Credenciais e Parâmetros:
 Abra o script upload_to_s3.py e substitua as variáveis de configuração no início do script com suas credenciais AWS, informações do bucket e URL do webhook.
