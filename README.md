@@ -10,15 +10,15 @@ Alerta via Webhook: Utiliza a biblioteca requests para enviar alertas sobre o st
 Configurações Necessárias:
 Antes de executar o script, é necessário configurar algumas variáveis no código:
 
-AWS_ACCESS_KEY: Sua chave de acesso da AWS.
-AWS_SECRET_KEY: Sua chave secreta da AWS.
-AWS_BUCKET_NAME: Nome do bucket S3 de destino.
-AWS_REGION: Região AWS onde o bucket está localizado.
-WEBHOOK_URL: URL do webhook para receber alertas.
-cliente_nome: Nome do cliente, usado na formação do nome do arquivo enviado.
-Instalação e Configuração:
-Instale as Dependências:
-Certifique-se de ter as bibliotecas necessárias instaladas usando o seguinte comando:
+AWS_ACCESS_KEY: Sua chave de acesso da AWS.<br>
+AWS_SECRET_KEY: Sua chave secreta da AWS.<br>
+AWS_BUCKET_NAME: Nome do bucket S3 de destino.<br>
+AWS_REGION: Região AWS onde o bucket está localizado.<br>
+WEBHOOK_URL: URL do webhook para receber alertas.<br>
+cliente_nome: Nome do cliente, usado na formação do nome do arquivo enviado.<br>
+Instalação e Configuração:<br>
+Instale as Dependências:<br>
+Certifique-se de ter as bibliotecas necessárias instaladas usando o seguinte comando:<br>
 
 pip install boto3 requests tqdm
 
